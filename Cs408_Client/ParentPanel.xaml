@@ -1,0 +1,14 @@
+﻿<Window x:Class="Client.ParentPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Parent Screen" Height="363" Width="579" Closing="Window_Closing">
+    <Grid>
+        <Button Content="Send" Height="23" HorizontalAlignment="Left" Margin="460,175,0,0" Name="btnSend" VerticalAlignment="Top" Width="73" IsEnabled="True" Click="btnSend_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,175,0,0" Name="txtSend" VerticalAlignment="Top" Width="449" IsEnabled="True" />
+        <TextBox Height="135" HorizontalAlignment="Left" Margin="12,39,0,0" Name="txtChat" VerticalAlignment="Top" Width="521" IsReadOnly="True" VerticalScrollBarVisibility="Auto" />
+        <TextBox Height="80" HorizontalAlignment="Left" Margin="12,231,0,0" Name="txtMessage" VerticalAlignment="Top" Width="521" IsReadOnly="True" VerticalScrollBarVisibility="Auto" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,202,0,0" Name="textBlock1" Text="Client Activities" VerticalAlignment="Top" Width="113" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="textBlock2" Text="Message Box:" VerticalAlignment="Top" Width="113" />
+        <Button Content="Take A Screenshot" Height="23" Margin="328,202,0,0" Name="btnSs" VerticalAlignment="Top" IsEnabled="True" Click="btnSs_Click" HorizontalAlignment="Left" Width="205" />
+    </Grid>
+</Window>

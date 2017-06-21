@@ -1,0 +1,10 @@
+﻿<Window x:Class="Client.ChildControlPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="childControlScreen" Height="253" Width="568" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <TextBox Height="94" IsReadOnly="True" Margin="12,106,105,0" Name="txtMessage" TextWrapping="Wrap" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,77,0,0" Name="textBlock2" Text="Socket Activities:" VerticalAlignment="Top" />
+        <Label Content="Note: This is the connected window to server. Please do not close it." Height="37" HorizontalAlignment="Left" Margin="12,20,0,0" Name="label1" VerticalAlignment="Top" Width="406" />
+    </Grid>
+</Window>
