@@ -1,0 +1,12 @@
+﻿<Window x:Class="Cs408_Server.Server"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Server of Parental Control Application" Height="350" Width="525">
+    <Grid>
+        <TextBox Height="196" HorizontalAlignment="Left" Margin="12,103,0,0" Name="txtMessage" VerticalAlignment="Top" Width="479" IsReadOnly="True" VerticalScrollBarVisibility="Auto" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="92,12,0,0" Name="txtPort" VerticalAlignment="Top" Width="120" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="0,12,0,0" Name="lblPort" Text="Port of Server:" VerticalAlignment="Top" Width="86" />
+        <Button Content="Start Listening" Height="23" HorizontalAlignment="Left" Margin="362,12,0,0" Name="btnStart" VerticalAlignment="Top" Width="105" Click="btnStart_Click" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,74,0,0" Name="textBlock1" Text="Socket Activities:" VerticalAlignment="Top" Width="96" />
+    </Grid>
+</Window>
